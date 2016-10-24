@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 80px;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #f1f1f1;
+	border: 1px solid #e5e5e5;
+}
+
+
+nav h2.logo {
+	display: inline-block;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+ul {
+	list-style: none; /*removes bullets*/
+	padding: 0;
+}
+
+nav ul {
+	display: inline-block;
+	float: right;
+	padding-right: 20px;
+}
+
+nav li {
+	display: inline-block; /*puts Post and Account next to each other*/
+	padding-right: 10px;
+	font-size: 16px;
+
+}
+
+.listing {
+	color: gray;
+	margin-bottom: 15px;
+}
+
+.listing a {
+	font-weight: bold;
+}
+li a {
+	text-decoration: none; /*removes underline*/ 
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.row-search {
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}	
+
+
+.row-search input {
+	font-size: 17px;
+	border-radius: 3px;
+	width: 400px;
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+}
+
+.row-search button {
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	background-color: white;	
+	height: 30px;
+	font-size: 17px;
+	vertical-align: bottom;
+}
+
+.pages {
+	font-size: 0;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pages-button, .pages-display {
+	font-size: 16px;	
+	padding: 10px;
+}
+
+.pages-display {
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+.mag-icon {
+	height: 100%;
+}
